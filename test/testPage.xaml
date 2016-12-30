@@ -5,8 +5,8 @@
 			
 			<Label Text="按鈕測試" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Font="50" />
 			<Grid>
-			<Button Clicked="logIn" Text="log In" Font="40" HorizontalOptions="StartAndExpand" TextColor="Maroon"/>
-			<Button Clicked="ButtonClick" Text="Press" Font="40" HorizontalOptions="EndAndExpand" TextColor="Blue" />
+			<Button Clicked="logIn" Text="log In" Font="45" HorizontalOptions="StartAndExpand" TextColor="Maroon"/>
+			<Button Clicked="ButtonClick" Text="Press" Font="45" HorizontalOptions="EndAndExpand" TextColor="Blue" />
 			</Grid>
 			<Label x:Name="labelValue" Text="No Button is clicked" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Font="20" />
 			
