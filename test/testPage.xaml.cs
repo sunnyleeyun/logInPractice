@@ -5,14 +5,15 @@ namespace test
 {
 	public partial class testPage : ContentPage
 	{
-
-		Label label;
 		int clickTotal = 0;
+
 
 
 		public testPage()
 		{
+			InitializeComponent();
 
+			/*
 			Label header = new Label
 			{
 				Text = "Button",
@@ -28,7 +29,7 @@ namespace test
 				HorizontalOptions = LayoutOptions.Center,
 				VerticalOptions = LayoutOptions.CenterAndExpand
 			};
-			button.Clicked += OnButtonClicked;
+			button.Clicked += ButtonClick;
 
 			label = new Label
 			{
@@ -50,17 +51,21 @@ namespace test
 					button,
 					label
 				}
-			};
+			};*/
 
-			//InitializeComponent();
 
 		}
-		void OnButtonClicked(object sender, EventArgs e)
+
+		void ButtonClick(object sender, EventArgs e)
 		{
 			clickTotal += 1;
-			label.Text = String.Format("{0} button click{1}",
-									   clickTotal, clickTotal == 1 ? "" : "s");
+			labelValue.Text = String.Format("{0} button click{1}",
+			                           clickTotal, clickTotal == 1 ? "" : "s");
+		}
 
+		void logIn(object sender, EventArgs e)
+		{
+			
 		}
 	}
 

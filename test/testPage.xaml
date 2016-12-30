@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:test" x:Class="test.testPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
-		<Label Text="Hello!" VerticalOptions="Center" HorizontalOptions="Center" />
-
-	
+	<ContentPage.Content>
+		<StackLayout>
+			
+			<Label Text="按鈕測試" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Font="50" />
+			<Grid>
+			<Button Clicked="logIn" Text="log In" Font="40" HorizontalOptions="StartAndExpand" TextColor="Maroon"/>
+			<Button Clicked="ButtonClick" Text="Press" Font="40" HorizontalOptions="EndAndExpand" TextColor="Blue" />
+			</Grid>
+			<Label x:Name="labelValue" Text="No Button is clicked" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Font="20" />
+			
+		</StackLayout>
+	</ContentPage.Content>
 </ContentPage>
