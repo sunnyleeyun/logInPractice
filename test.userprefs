@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{5269E8E6-1B27-44EC-9327-3142A6474FBF}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="test/testPage.xaml">
     <Files>
-      <File FileName="test/testPage.xaml" Line="11" Column="88" />
+      <File FileName="test/testPage.xaml" Line="16" Column="1" />
       <File FileName="test/testPage.xaml.cs" Line="68" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
